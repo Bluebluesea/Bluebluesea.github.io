@@ -1,1 +1,135 @@
-my portfolio oage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Porfolio Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="row hero">
+            <div class="col-md-6">
+                <img class="title-logo" src="images/logo.png" alt="udacity logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin title-super">Wenshan Cao</h1>
+                <h4>Front-end Ninja</h4>
+                <div class="social">
+                    <a class="zocial-twitter" href="https://twitter.com" target="_blank"></a>
+                    <a class="zocial-reddit" href="https://reddit.com" target="_blank"></a>
+                    <a class="zocial-linkedin" href="https://linkedin.com" target="_blank"></a>
+                    <a class="zocial-googleplus" href="https://plus.google.com" target="_blank"></a>
+                </div>
+            </div>
+        </header>
+    <div class="row">
+        <div class="col-md-12">
+            <hr class="horizontal-break">
+        </div>
+    </div>
+    <section class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="images/code-1600_large.jpg" srcset="images/code-600_small.jpg 600w, images/code-800_medium.jpg 800w, images/code-1600_large.jpg 1600w" sizes="(max-with: 991px) 50vw, (max-with:511px)100vw" alt="3 skills for frontend">
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </div>
+    </div>
+    <article class="row text-center workgroup">
+
+        <!--<section class="col-md-4 work1">
+            <img class="img-responsive img" src="images/WanderingAlbatross-800_medium.jpg" srcset="images/WanderingAlbatross-600_small.jpg 600w, images/WanderingAlbatross-800_medium.jpg 800w, images/WanderingAlbatross-1600_large.jpg 1600w" sizes="(max-with: 991px) 50vw, (max-with:511px)100vw" alt="animal trading card" data-toggle="modal" data-target="#project1">
+            <h3 class="text-uppercase projectname">Animal Trading Card</h3>
+            <p class="des"><a  href="https://github.com">https://github.com</a></p>
+        </section>
+        <section class="col-md-4 work2">
+            <img class="img-responsive img" src="images/homeapp-800_medium.jpg" srcset="images/homeapp-600_small.jpg 600w, images/homeapp-800_medium.jpg 800w, images/homeapp-1600_large.jpg 1600w" sizes="(max-with: 991px) 50vw, (max-with:511px)100vw" alt="home app" data-toggle="modal" data-target="#project2">
+            <h3 class="text-uppercase projectname">Home App</h3>
+            <p class="des"><a href="https://github.com">https://github.com</a></p>
+        </section>
+        <section class="col-md-4 work3">
+            <img class="img-responsive img" src="images/still_life-800_medium.jpg" srcset="images/still_life-600_small.jpg 600w, images/still_life-800_medium.jpg 800w, images/still_life-1600_large.jpg 1600w" sizes="(max-with: 991px) 50vw, (max-with:511px)100vw" alt="my responsive blog" data-toggle="modal" data-target="#project3">
+            <h3 class="text-uppercase projectname">My Responsive Blog</h3>
+            <p class="des"><a href="https://github.com">https://github.com</a></p>
+        </section>-->
+
+        <section class="col-md-4 work1">
+            <div class="img1 featuredwork" data-toggle="modal" data-target="#project1"></div>
+            <h3 class="text-uppercase projectname">Animal Trading Card</h3>
+            <p class="des"><a  href="https://github.com">https://github.com</a></p>
+        </section>
+         <section class="col-md-4 work2">
+            <div class="img2 featuredwork" data-toggle="modal" data-target="#project2"></div>
+            <h3 class="text-uppercase projectname">Home App</h3>
+            <p class="des"><a href="https://github.com">https://github.com</a></p>
+        </section>
+         <section class="col-md-4 work3">
+            <div class="img3 featuredwork" data-toggle="modal" data-target="#project3"></div>
+            <h3 class="text-uppercase projectname">My Responsive Blog</h3>
+            <p class="des"><a href="https://github.com">https://github.com</a></p>
+        </section>
+    </article>
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Animal trading card</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/WanderingAlbatross-800_medium.jpg" alt="animal trading card">
+                    <p class="text-modal">This was my first project in this class. I learned a lot about HTML and CSS.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Home App</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/homeapp-800_medium.jpg" alt="home app">
+                    <p class="text-modal">This was my second project in this class. I learned the fundamentals of a responsive design website.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">My responsive blog</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/still_life-800_medium.jpg" alt="my responsive blog">
+                    <p class="text-modal">This was my third project in this class. I learned how to make a fully responsive website.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
