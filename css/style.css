@@ -1,0 +1,159 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+
+    margin-top: 20px;
+}
+
+.text-uppercase {
+    color: #2d3c49;
+}
+
+.horizontal-break {
+    border: 1px solid #7d97ad;
+}
+
+.text-modal {
+    font-size: 20px;
+}
+
+.workgroup {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.featuredwork{
+     height: 250px;
+     background-size: cover;
+     background-clip: border-box;
+
+}
+
+.img1 {
+    background-image: url(../images/WanderingAlbatross-800_medium.jpg);
+
+}
+
+.img2 {
+    background-image: url(../images/homeapp-800_medium.jpg);
+}
+
+.img3 {
+    background-image: url(../images/still_life-800_medium.jpg);
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  padding: 1.5em;
+  color: #000;
+  text-shadow: 3px 3px 3px #aaa;
+  transition: font-size 0.5s ease;
+
+}
+
+[class*="zocial-"]:last-of-type:before {
+    padding-right: 0;
+}
+
+[class*="zocial-"]:hover:before{
+    font-size: 25px;
+    color: #02b3e4;
+   opacity: 0.5;
+
+
+}
+
+
+p.des a {
+    color: #2d3c49;
+    font-size: 16px;
+
+}
+
+.projectname {
+    font-weight: 600;
+}
+
+
+.featuredwork:hover {
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 991px) {
+    .workgroup {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.work1, .work2, .work3 {
+    width: 50%;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.img1 {
+    background-image: url(../images/WanderingAlbatross-600_small.jpg);
+
+    }
+
+.img2 {
+    background-image: url(../images/homeapp-600_small.jpg);
+    }
+
+.img3 {
+    background-image: url(../images/still_life-600_small.jpg);
+    }
+}
+
+@media screen and (max-width: 511px) {
+     .work1, .work2, .work3 {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    }
+
+
+.img1 {
+    background-image: url(../images/WanderingAlbatross-511_ex-small.jpg);
+
+        }
+
+.img2 {
+    background-image: url(../images/homeapp-511_ex-small.jpg);
+        }
+
+.img3 {
+    background-image: url(../images/still_life-511_ex-small.jpg);
+        }
+}
